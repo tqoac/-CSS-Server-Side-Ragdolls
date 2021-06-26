@@ -1,6 +1,13 @@
 # -CSS-Server-Side-Ragdolls
 This is a plugin for Counter Strike: Source that creates server side ragdolls on death
 
+--CREDITS--
+: BHAType: https://forums.alliedmods.net/member.php?u=286417
+: Crasher_3637: https://forums.alliedmods.net/member.php?u=181166
+: Dreyson: https://forums.alliedmods.net/member.php?u=295756
+
+
+
 LICENSE: https://creativecommons.org/licenses/by/4.0/
 
 
