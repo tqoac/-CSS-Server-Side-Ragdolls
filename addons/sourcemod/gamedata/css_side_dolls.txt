@@ -1,0 +1,16 @@
+"Games"
+{
+	"cstrike"
+	{
+        "Signatures" // Linux signature is here but does not work as it is left over from the base of this plugin Windows signature by Crasher_3637
+        {
+			"CreateServerRagdoll"
+			{
+				"library"	"server"
+				"windows"	"\x53\x8B\x2A\x83\x2A\x2A\x83\x2A\x2A\x83\x2A\x2A\x55\x8B\x2A\x2A\x89\x2A\x2A\x2A\x8B\x2A\xB8\x68"
+				/* 53 8B ? 83 ? ? 83 ? ? 83 ? ? 55 8B ? ? 89 ? ? ? 8B ? B8 78 */
+				"linux"		"@_Z19CreateServerRagdollP14CBaseAnimatingiRK15CTakeDamageInfoib"
+			}
+		}
+	}
+}
